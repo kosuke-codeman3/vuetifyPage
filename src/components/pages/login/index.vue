@@ -42,7 +42,10 @@ export default {
   },
   methods: {
     submit() {
-      console.log(this.name, this.password);
+      // console.log(this.name, this.password);
+      this.$router.push({
+        path: "/",
+      });
     },
   },
 };

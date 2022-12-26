@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <Home />
 </template>
+
+<script lang="ts">
+import Vue from "vue";
+import Home from "../components/pages/home/index.vue";
+
+export default Vue.extend({
+  //name: "Home",
+
+  components: {
+    Home,
+  },
+});
+</script>
