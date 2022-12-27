@@ -34,7 +34,76 @@
         <v-carousel-item>
           <v-img src="../../../../public/img/image2.jpg" height="100%"></v-img>
         </v-carousel-item>
+        <v-carousel-item>
+          <v-img src="../../../../public/img/image3.jpg" height="100%"></v-img>
+        </v-carousel-item>
       </v-carousel>
+      <v-container>
+        <v-row>
+          <v-col>
+            <v-card>
+              <v-card-title>HEAD1</v-card-title>
+              <v-card-text>
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col>
+            <v-card>
+              <v-card-title>HEAD2</v-card-title>
+              <v-card-text>
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col>
+            <v-card>
+              <v-card-title>HEAD3</v-card-title>
+              <v-card-text>
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-col>
+            <v-card class="overflow-hidden">
+              <v-card-title>HEAD4</v-card-title>
+              <v-card-text>
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col>
+            <v-card class="overflow-hidden">
+              <v-card-title>HEAD5</v-card-title>
+              <v-card-text>
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col>
+            <v-card class="overflow-hidden">
+              <v-card-title>HEAD6</v-card-title>
+              <v-card-text>
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-main>
   </v-app>
 </template>
