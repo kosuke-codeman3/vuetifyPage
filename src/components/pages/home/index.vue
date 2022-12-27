@@ -26,7 +26,16 @@
         </v-list>
       </v-navigation-drawer>
     </div>
-    <v-main></v-main>
+    <v-main>
+      <v-carousel v-model="model">
+        <v-carousel-item>
+          <v-img src="../../../../public/img/image1.jpg" height="100%"></v-img>
+        </v-carousel-item>
+        <v-carousel-item>
+          <v-img src="../../../../public/img/image2.jpg" height="100%"></v-img>
+        </v-carousel-item>
+      </v-carousel>
+    </v-main>
   </v-app>
 </template>
 
