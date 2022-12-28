@@ -104,7 +104,64 @@
           </v-col>
         </v-row>
       </v-container>
+      <v-container>
+        <v-row>
+          <v-col>
+            <v-card>
+              <v-card-title>CARD 1</v-card-title>
+              <v-card-subtitle>about</v-card-subtitle>
+              <v-card-text>
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text
+              </v-card-text>
+              <v-card-actions>
+                <v-btn small>OK</v-btn>
+                <v-btn small>Cancel</v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-col>
+          <v-col>
+            <v-card>
+              <v-card-title>CARD 2</v-card-title>
+              <v-card-subtitle>about</v-card-subtitle>
+              <v-card-text>
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text sample Text sample Text sample Text sample Text
+                sample Text
+              </v-card-text>
+              <v-card-actions>
+                <v-btn small>OK</v-btn>
+                <v-btn small>Cancel</v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-main>
+    <v-footer color="primary">
+      <v-row
+      justify="center"
+      no-gutters
+      >
+      <v-btn
+        v-for="link in navListItems"
+        :key="id"
+        color="white"
+        text
+        rounded
+        class="my-2"
+      >
+        {{ link.text }}
+      </v-btn>
+      <v-col
+        class="primary py-4 text-center white--text"
+        cols="12"
+      >
+        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+      </v-col>
+    </v-row>
+    </v-footer>
   </v-app>
 </template>
 
